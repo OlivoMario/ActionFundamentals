@@ -1,5 +1,5 @@
 name: GitHub Actions Demo
- 
+
 on:
   push:
     branches: [ main ]
@@ -16,6 +16,7 @@ on:
         required: true
 
 jobs:
+
   Build:
     runs-on: ubuntu-latest
     steps:
